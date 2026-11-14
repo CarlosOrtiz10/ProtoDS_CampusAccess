@@ -1,0 +1,11 @@
+{
+  "n": 40,
+  "capacidad": 53,
+  "alfa": 0.7547,
+  "colisiones": 8,
+  "aciertos": 5,
+  "fallos": 5,
+  "promedio_pasos_existentes": 2.2,
+  "promedio_pasos_ausentes": 1.6,
+  "promedio_pasos_total": 1.9
+}

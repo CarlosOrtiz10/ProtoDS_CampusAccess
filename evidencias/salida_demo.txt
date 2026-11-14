@@ -1,0 +1,24 @@
+=== PROTODS · CAMPUSACCESS / UCC · ESCENARIO FICTICIO ===
+[DATOS] JSON: 39 solicitudes iniciales; alta demostrada: AC-040; total: 40
+
+[A] MAPA/CONJUNTO · 3 operaciones exitosas + 1 inexistente
+  1. INSERTAR  AC-040 -> Licencia GIS
+  2. ACTUALIZAR AC-005 -> autorizada
+  3. CONSULTAR  AC-005 -> Videoconferencia
+  EXISTE AC-040 -> True | AC-999 -> False
+  4. CONSULTA INEXISTENTE AC-999 -> None
+  IDS sin duplicados -> True
+  DUPLICADO RECHAZADO -> ID duplicado: AC-040
+
+[B] ÁRBOL AVL · 40 registros indexados por (minuto, ID)
+  min: 08:01 AC-019
+  max: 13:43 AC-037
+  RANGO [09:00, 10:00) · 7 resultados:
+    09:16 AC-004, 09:17 AC-023, 09:35 AC-005, 09:36 AC-024, 09:54 AC-006, 09:55 AC-025, 09:59 AC-040
+  RANGO [10:00, 11:00) · 6 resultados:
+    10:13 AC-007, 10:14 AC-026, 10:32 AC-008, 10:33 AC-027, 10:51 AC-009, 10:52 AC-028
+  RANGO [21:00, 22:00) · 0 resultados:
+    (vacío)
+  ALTURA AVL=6 | BALANCE=True | N=40
+
+[CIERRE] A y B funcionales. Hash educativo: python main.py metricas

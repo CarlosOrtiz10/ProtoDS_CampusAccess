@@ -1,0 +1,27 @@
+test_actualizacion_inexistente_indice (test_modulos.AVLTests.test_actualizacion_inexistente_indice) ... ok
+test_actualizar_datos_mantiene_indice_consistente (test_modulos.AVLTests.test_actualizar_datos_mantiene_indice_consistente) ... ok
+test_aleatorio_coincide_con_filtro_ordenado (test_modulos.AVLTests.test_aleatorio_coincide_con_filtro_ordenado) ... ok
+test_dos_registros_mismo_minuto (test_modulos.AVLTests.test_dos_registros_mismo_minuto) ... ok
+test_minimo_maximo_vacio (test_modulos.AVLTests.test_minimo_maximo_vacio) ... ok
+test_orden_adversarial_y_balance (test_modulos.AVLTests.test_orden_adversarial_y_balance) ... ok
+test_rango_invalido (test_modulos.AVLTests.test_rango_invalido) ... ok
+test_rango_semiabierto_incluye_inicio_excluye_fin (test_modulos.AVLTests.test_rango_semiabierto_incluye_inicio_excluye_fin) ... ok
+test_rango_vacio (test_modulos.AVLTests.test_rango_vacio) ... ok
+test_rechazo_id_repetido (test_modulos.AVLTests.test_rechazo_id_repetido) ... ok
+test_actualizacion_integridad_registro (test_modulos.HashTests.test_actualizacion_integridad_registro) ... ok
+test_carga_y_aciertos_fallos (test_modulos.HashTests.test_carga_y_aciertos_fallos) ... ok
+test_colisiones_preservan_claves (test_modulos.HashTests.test_colisiones_preservan_claves) ... ok
+test_hash_estable (test_modulos.HashTests.test_hash_estable) ... ok
+test_repeticion_no_aumenta_carga (test_modulos.HashTests.test_repeticion_no_aumenta_carga) ... ok
+test_actualizacion (test_modulos.RegistroTests.test_actualizacion) ... ok
+test_actualizacion_inexistente (test_modulos.RegistroTests.test_actualizacion_inexistente) ... ok
+test_alta_y_consulta (test_modulos.RegistroTests.test_alta_y_consulta) ... ok
+test_datos_json_39 (test_modulos.RegistroTests.test_datos_json_39) ... ok
+test_estado_invalido_no_cambia_sistema (test_modulos.RegistroTests.test_estado_invalido_no_cambia_sistema) ... ok
+test_rechaza_duplicados (test_modulos.RegistroTests.test_rechaza_duplicados) ... ok
+test_set_existencia_y_fallo (test_modulos.RegistroTests.test_set_existencia_y_fallo) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 0.006s
+
+OK
