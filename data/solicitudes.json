@@ -1,0 +1,280 @@
+{
+  "escenario": "CampusAccess-UCC-FICTICIO",
+  "descripcion": "Solicitudes sintéticas de acceso a servicios académicos (ningún dato real)",
+  "formato_hora": "entero, minutos desde 00:00",
+  "solicitudes": [
+    {
+      "identificador": "AC-001",
+      "usuario": "alumno01@ejemplo.edu.co",
+      "recurso": "Aula virtual",
+      "minuto": 499,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-002",
+      "usuario": "alumno02@ejemplo.edu.co",
+      "recurso": "Licencia GIS",
+      "minuto": 518,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-003",
+      "usuario": "alumno03@ejemplo.edu.co",
+      "recurso": "Entorno Python",
+      "minuto": 537,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-004",
+      "usuario": "alumno04@ejemplo.edu.co",
+      "recurso": "Laboratorio CAD",
+      "minuto": 556,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-005",
+      "usuario": "alumno05@ejemplo.edu.co",
+      "recurso": "Videoconferencia",
+      "minuto": 575,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-006",
+      "usuario": "alumno06@ejemplo.edu.co",
+      "recurso": "Repositorio académico",
+      "minuto": 594,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-007",
+      "usuario": "alumno07@ejemplo.edu.co",
+      "recurso": "Laboratorio de redes",
+      "minuto": 613,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-008",
+      "usuario": "alumno08@ejemplo.edu.co",
+      "recurso": "Aula virtual",
+      "minuto": 632,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-009",
+      "usuario": "alumno09@ejemplo.edu.co",
+      "recurso": "Licencia GIS",
+      "minuto": 651,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-010",
+      "usuario": "alumno10@ejemplo.edu.co",
+      "recurso": "Entorno Python",
+      "minuto": 670,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-011",
+      "usuario": "alumno11@ejemplo.edu.co",
+      "recurso": "Laboratorio CAD",
+      "minuto": 689,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-012",
+      "usuario": "alumno12@ejemplo.edu.co",
+      "recurso": "Videoconferencia",
+      "minuto": 708,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-013",
+      "usuario": "alumno13@ejemplo.edu.co",
+      "recurso": "Repositorio académico",
+      "minuto": 727,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-014",
+      "usuario": "alumno14@ejemplo.edu.co",
+      "recurso": "Laboratorio de redes",
+      "minuto": 746,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-015",
+      "usuario": "alumno15@ejemplo.edu.co",
+      "recurso": "Aula virtual",
+      "minuto": 765,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-016",
+      "usuario": "alumno16@ejemplo.edu.co",
+      "recurso": "Licencia GIS",
+      "minuto": 784,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-017",
+      "usuario": "alumno17@ejemplo.edu.co",
+      "recurso": "Entorno Python",
+      "minuto": 803,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-018",
+      "usuario": "alumno18@ejemplo.edu.co",
+      "recurso": "Laboratorio CAD",
+      "minuto": 822,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-019",
+      "usuario": "alumno19@ejemplo.edu.co",
+      "recurso": "Videoconferencia",
+      "minuto": 481,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-020",
+      "usuario": "alumno20@ejemplo.edu.co",
+      "recurso": "Repositorio académico",
+      "minuto": 500,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-021",
+      "usuario": "alumno21@ejemplo.edu.co",
+      "recurso": "Laboratorio de redes",
+      "minuto": 519,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-022",
+      "usuario": "alumno22@ejemplo.edu.co",
+      "recurso": "Aula virtual",
+      "minuto": 538,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-023",
+      "usuario": "alumno23@ejemplo.edu.co",
+      "recurso": "Licencia GIS",
+      "minuto": 557,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-024",
+      "usuario": "alumno24@ejemplo.edu.co",
+      "recurso": "Entorno Python",
+      "minuto": 576,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-025",
+      "usuario": "alumno25@ejemplo.edu.co",
+      "recurso": "Laboratorio CAD",
+      "minuto": 595,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-026",
+      "usuario": "alumno26@ejemplo.edu.co",
+      "recurso": "Videoconferencia",
+      "minuto": 614,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-027",
+      "usuario": "alumno27@ejemplo.edu.co",
+      "recurso": "Repositorio académico",
+      "minuto": 633,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-028",
+      "usuario": "alumno28@ejemplo.edu.co",
+      "recurso": "Laboratorio de redes",
+      "minuto": 652,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-029",
+      "usuario": "alumno29@ejemplo.edu.co",
+      "recurso": "Aula virtual",
+      "minuto": 671,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-030",
+      "usuario": "alumno30@ejemplo.edu.co",
+      "recurso": "Licencia GIS",
+      "minuto": 690,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-031",
+      "usuario": "alumno31@ejemplo.edu.co",
+      "recurso": "Entorno Python",
+      "minuto": 709,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-032",
+      "usuario": "alumno32@ejemplo.edu.co",
+      "recurso": "Laboratorio CAD",
+      "minuto": 728,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-033",
+      "usuario": "alumno33@ejemplo.edu.co",
+      "recurso": "Videoconferencia",
+      "minuto": 747,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-034",
+      "usuario": "alumno34@ejemplo.edu.co",
+      "recurso": "Repositorio académico",
+      "minuto": 766,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-035",
+      "usuario": "alumno35@ejemplo.edu.co",
+      "recurso": "Laboratorio de redes",
+      "minuto": 785,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-036",
+      "usuario": "alumno36@ejemplo.edu.co",
+      "recurso": "Aula virtual",
+      "minuto": 804,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-037",
+      "usuario": "alumno37@ejemplo.edu.co",
+      "recurso": "Licencia GIS",
+      "minuto": 823,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-038",
+      "usuario": "alumno38@ejemplo.edu.co",
+      "recurso": "Entorno Python",
+      "minuto": 482,
+      "estado": "pendiente"
+    },
+    {
+      "identificador": "AC-039",
+      "usuario": "alumno39@ejemplo.edu.co",
+      "recurso": "Laboratorio CAD",
+      "minuto": 501,
+      "estado": "pendiente"
+    }
+  ]
+}
