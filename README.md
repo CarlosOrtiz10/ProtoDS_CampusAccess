@@ -58,6 +58,29 @@ Prototipo académico en memoria, determinista, sin datos personales reales, aute
 
 Ejecuta `python main.py demo`, `python main.py metricas` y los tests en la raíz del proyecto. Las evidencias almacenadas son resultados de estas ejecuciones, no capturas de una interfaz institucional. El resultado puede variar en duración, pero **no** en contenidos ni conteos.
 
+## Auditoría e incorporación a Git
+
+El proyecto se recibió completo. Los commits por componentes registran su
+incorporación y validación en Git, con fechas de ejecución reales; no representan
+una reconstrucción del desarrollo previo. La suite se incorpora después de la
+CLI porque importa `main.py` y la carga conjunta de A y B.
+
+Resultados comprobados con Python 3.12.0:
+
+- JSON: 39 solicitudes; alta `AC-040`: 40 IDs únicos, de `AC-001` a `AC-040`.
+- Rangos `[09:00,10:00)`, `[10:00,11:00)` y `[21:00,22:00)`:
+  7, 6 y 0 resultados; AVL válido con altura 6.
+- Hash educativo: 40 claves / 53 cubetas, α = 0.7547, 8 colisiones,
+  5 aciertos y 5 fallos; pasos promedio 2.20, 1.60 y 1.90 en total.
+- Suite: 22 pruebas correctas. Incluye vectores conocidos FNV-1a de 32 bits
+  para la cadena vacía y `hello`, y comprobación exacta de IDs y rangos.
+
+Las salidas de demo y métricas y `evidencias/metricas_hash.json` coincidieron
+con las ejecuciones de auditoría y se conservaron. Se regeneró
+`evidencias/pruebas_22.txt` tras reforzar las aserciones; el tiempo de ejecución
+de las pruebas puede variar. Los entregables Word/PDF y el guion externos no
+forman parte del repositorio.
+
 ## Referencias
 
 - OpenDSA. *Chapter Introduction: Search* (búsqueda exacta y por rango): https://opendsa-server.cs.vt.edu/ODSA/Books/cnu/cpsc270/spring-2025/CNUCPSC270SP2025/html/SearchIntro.html
